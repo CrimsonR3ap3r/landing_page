@@ -13,23 +13,69 @@ body {
  display: flex;
  align-items:center;
  justify-content: center;
+ flex: 1;
  color: white;
- background-color: rgb(15, 24, 71);
+ background-color: rgb(2, 7, 37);
 }
 
 .hleft {
+ font-size: 28px;
+ font-weight: 900;
  display: flex;
  align-items: center;
+ justify-content: space-around;
  padding: 8px 16px;
+ flex: 1;
 }
 
 .hright {
  display : flex;
  align-items: center;
+ justify-content: center;
  padding: 8px 16px;
+ flex: 1;
 }
 a {
  text-decoration: none;
  color: white;
  padding: 8px;
+}
+
+.para1 {
+ background-color: rgb(2, 7, 37);
+ color: white;
+ display:flex;
+ justify-content: center;
+ flex: 1;
+}
+
+.pleft {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.pright {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+p1 {
+    font-size: 34px;
+    display: flex;
+}
+
+p2 {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+Button {
+  background-color: rgb(62, 62, 228);
+  color: white;
+  border-radius: 5px;
+  border-color: rgb(62, 62, 228);
+  padding: 4px 6px;
 }
