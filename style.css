@@ -96,6 +96,7 @@ Button {
 .para2 {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .hpara2 {
@@ -104,10 +105,10 @@ Button {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin: 40px;
 }
 
 .block {
-    
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -115,6 +116,7 @@ Button {
     justify-content: center;
     vertical-align: top;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .row {
@@ -177,7 +179,7 @@ margin-right: 10px;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin: 10px;
+    margin: 100px 150px;
 }
 
  .para4b {
